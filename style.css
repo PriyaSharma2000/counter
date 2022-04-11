@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(227, 185, 131);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 500px;
+    width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.counter{
+    padding: 50px;
+    color: black;
+    font-size: 80px;
+    text-align: center;
+}
+.number{
+    text-align: center;
+    font-size: 80px;
+    padding: 50px;
+    color: green;
+}
+.button{
+    text-align: center;
+    padding: 20px;
+    line-height: 80px;    
+}
+ .sub, .add{
+     font-size: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+
+
+}
